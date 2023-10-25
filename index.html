@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipe App</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="./style.css" />
+    <!-- sweetAlert -->
+    <script src="https://unpkg.com/sweetalert@2.1.2/dist/sweetalert.min.js"></script>
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="cardContainer">
+      <div class="itemContainer">
+        <i class="fa-solid fa-x"></i>
+      </div>
+      <div class="inputDiv">
+        <input type="text" placeholder="Search Food" />
+        <button class="searchBtn">Search</button>
+      </div>
+      <div class="cardImg"></div>
+      <div class="recipeContainer"></div>
+      <div class="recipeBtn">
+        <button class="viewRecipe" style="display: none">
+          <a href="#">View Recipe</a>
+        </button>
+      </div>
+    </div>
+  </body>
+  <script src="./script.js"></script>
+</html>
